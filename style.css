@@ -8,9 +8,11 @@
 body {
     position: relative;
     height: 100vh;
+    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 body::before {
