@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('a1648ceed516f7f1e47eff8e7e7093af.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 40%;
+    z-index: -1;
+}
+
+h3 {
+    color: black;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 50px;
+    background-color:rgb(255, 247, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: -16px -16px 30px rgba(255, 255, 255, 0.1), 10px 10px 30px rgba(0, 0, 0, 0.2);
+    opacity: 70%;
+}
+
+.box {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculator {
+    background-color:rgb(108, 72, 197);
+    padding: 20px;
+    border-radius: 10px;
+    border-color: black;
+    box-shadow: 10px 10px;
+}
+
+.calculator form input {
+    border: 0;
+    outline: 0;
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1), 5px 5px 15px rgba(0, 0, 0, 0.2);
+    background: transparent;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    margin: 10px;
+}
+
+form .display {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 0;
+}
+
+form .display input {
+    text-align: right;
+    flex: 1;
+    font-size: 45px;
+    box-shadow: none;
+}
+
+form input.equal {
+    width: 145px;
+}
+
+form input.operator {
+    color: white;
+}
+
+.profile{
+    height: 32px;
+    width: 32px;
+    border-radius: 100px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 800;
+    text-align: left;
+    font-size: small;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
